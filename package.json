@@ -1,0 +1,49 @@
+{
+  "name": "lighthouse-revenue-impact",
+  "description": "Calculate potential revenue loss from website performance issues using Lighthouse reports and Deloitte research data",
+  "version": "1.0.0",
+  "type": "module",
+  "keywords": [
+    "lighthouse",
+    "web-performance",
+    "core-web-vitals",
+    "revenue-impact",
+    "business-metrics",
+    "performance-analysis",
+    "deloitte-research",
+    "conversion-optimization"
+  ],
+  "author": "biagruot",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/biagruot/lighthouse-revenue-impact.git"
+  },
+  "bugs": {
+    "url": "https://github.com/biagruot/lighthouse-revenue-impact/issues"
+  },
+  "homepage": "https://github.com/biagruot/lighthouse-revenue-impact#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "echo 'Add ESLint configuration for production use'"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.7",
+    "typescript": "^5.5.4",
+    "vite": "^5.3.4"
+  }
+}
